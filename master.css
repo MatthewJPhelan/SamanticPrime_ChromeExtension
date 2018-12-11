@@ -1,0 +1,152 @@
+
+html {
+  font-family: Montserrat;
+  font-style: oblique;
+  font-weight: lighter;
+  text-indent: 5%;
+  width: 500px;
+}
+h3 {
+  color: black;
+}
+body {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  min-width: 403px;
+  min-height: 365px;
+  padding: 2%;
+}
+.form{
+  width: 100%;
+  text-align: center;
+}
+.qDiv {
+    text-align: initial;
+    margin-top: 2.5%;
+    color: black;
+    opacity: 0.75;
+    margin-right: 15%;
+}
+.submit{
+  margin-top: 10%;
+  text-align: center;
+}
+.button {
+  /* display: inline-block;
+  position: relative; */
+  width: 75%;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  background: #2c3e50;
+  padding: 5px 10px;
+  cursor: pointer;
+	overflow: hidden;
+	box-shadow: 0 0 1px 0 rgba(0,0,0,.3);
+}
+
+.thankyou {
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.tyhead {
+  font-size: x-large;
+}
+.col{
+  padding: 2.5%
+}
+.questionBox {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: -11em;
+  top: -12em;
+}
+.question{
+  background: #000000;
+  padding: 10px;
+  opacity: 0.5;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.question p {
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 2px auto;
+}
+
+.slider {
+  width: 100%;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 75%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  margin-right: 5%;
+}
+
+/* slider thumb
+*/
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+/* slider thumb hover highlight
+*/
+.range::-webkit-slider-thumb:hover {
+  background: #1abc9c;
+}
+/* .range:active::-webkit-slider-thumb {
+  background: #1abc9c;
+} */
+/* .range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+} */
+/* .range::-moz-range-thumb:hover {
+  background: #1abc9c;
+}
+.range:active::-moz-range-thumb {
+  background: #1abc9c;
+} */
+
+/* outside circle on thumb */
+.range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+}
+
+.value {
+  display: inline-block;
+  position: relative;
+  width: 7.5%;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #2c3e50;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+}

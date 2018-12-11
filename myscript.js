@@ -1,0 +1,55 @@
+// Checking page title
+if (document.title.indexOf("Facebook") == -1) {
+
+  document.body.innerHTML = document.body.innerHTML.replace(/ way /g, '<strong> way </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ life /g, '<strong> life </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ things /g, '<strong> things </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ people /g, '<strong> people </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ work /g, '<strong> work </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ never /g, '<strong> never </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ success /g, '<strong> success </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ make /g, '<strong> make </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ want /g, '<strong> want </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ get /g, '<strong> get </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ great /g, '<strong> great </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ think /g, '<strong> think </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ change /g, '<strong> change </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ time /g, '<strong> time </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ always /g, '<strong> always </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ unknown /g, '<strong> unknown </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ go /g, '<strong> go </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ dreams /g, '<strong> dreams </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ one /g, '<strong> one </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ love /g, '<strong> love </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ best /g, '<strong> best </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ hard /g, '<strong> hard </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ every /g, '<strong> every </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ someone /g, '<strong> someone </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ come /g, '<strong> come </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ dream /g, '<strong> dream </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ believe /g, '<strong> believe </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ stop /g, '<strong> stop </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ fear /g, '<strong> fear </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ failure /g, '<strong> failure </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ better /g, '<strong> better </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ going /g, '<strong> going </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ way /g, '<strong> way </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ day /g, '<strong> day </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ man /g, '<strong> man </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ world /g, '<strong> world </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ start /g, '<strong> start </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ give /g, '<strong> give </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ getting /g, '<strong> getting </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ enough /g, '<strong> enough </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ confidence /g, '<strong> confidence </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ goals /g, '<strong> goals </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ comes /g, '<strong> comes </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ succeed /g, '<strong> succeed </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ find /g, '<strong> find </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ everything /g, '<strong> everything </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ something /g, '<strong> something </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ greatest /g, '<strong> greatest </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ done /g, '<strong> done </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ live /g, '<strong> live </strong>');
+  document.body.innerHTML = document.body.innerHTML.replace(/ else /g, '<strong> else </strong>');
+}
